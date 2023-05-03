@@ -7,6 +7,6 @@ EdgeR package(R)
 Genome assembly in FASTA format and the corresponding annotation file in GTF/GFF3 format
 # Example
 ## Alignment and feature count
-bash ./Script.sh <directory of idex> <diretory of genome assembly in FASTA format> <diroctory of corresponding annotation file in GTF/GFF3 forma> <directory of fastq file> <name of fastq file>
+bash ./Script.sh 
 ## DEG analysis by EdgeR 
-bash ./Calculate.sh <list of sample num1> <list of sample num2>
+bash ./Calculate.sh 
