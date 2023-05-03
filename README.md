@@ -1,7 +1,7 @@
 # EgedR_DEG_analysis
 This packges are for calculating two samples DEG
 # Prequest 
-STAR 
+STAR  and bulit STAR index
 Subread 
 EdgeR (R)
 # Example
