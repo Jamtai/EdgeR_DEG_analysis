@@ -1,10 +1,11 @@
 # EgedR_DEG_analysis
-This packges are for calculating two samples DEG
-# 1.Prequest 
-STAR  2.7.10a
-Subread   v1.6.4
-EdgeR 
-Genome assembly in FASTA format and the corresponding annotation file in GTF/GFF3 format
+
+
+# Requirements
+#### STAR 2.7.10a
+#### Subread v1.6.4
+#### EdgeR Limma dplyr in R
+#### Genome assembly in FASTA format and the corresponding annotation file in GTF/GFF3 format
 ## Download  Genome assembly in FASTA format and The corresponding annotation file in GTF/GFF3 format
 `wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_39/gencode.v39.annotation.gtf.gz`
 
