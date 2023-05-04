@@ -47,4 +47,4 @@ loc = match(row.names(data),row.names(DEG))#
 loc=!is.na(loc)
 data_final=data[loc,]
 AA=DEG$table
-write.table(AA,file='DEG_table.txt',sep='\t')
+write.table(AA,file='DEG_output.txt',sep='\t')
