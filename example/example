@@ -1,4 +1,6 @@
 mkdir ./index
 for i in `cat SRR*`
+do 
 bash ./Script ./index ./GRCh38.primary_assembly.genome.f ./gencode.v39.annotation.gtf ./ ./$i
+done
 bash ./Calculate.sh sample1.txt sample2.txt 
