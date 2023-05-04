@@ -1,4 +1,4 @@
-# EgedR_DEG_analysis
+# EdgeR_DEG_analysis
 To calculate differential expressed genes between two groups by using R package EdgeR
 
 # Requirements
