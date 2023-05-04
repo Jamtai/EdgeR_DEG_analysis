@@ -7,6 +7,7 @@ To calculate differential expressed genes between two groups by using R package 
 #### EdgeR Limma dplyr in R
 #### sra toolkit
 ## Download  Genome assembly in FASTA format and The corresponding annotation file in GTF/GFF3 format
+
 `wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_39/gencode.v39.annotation.gtf.gz`
 
 `wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_39/GRCh38.primary_assembly.genome.fa.gz`
