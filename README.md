@@ -12,7 +12,7 @@ Genome assembly in FASTA format and the corresponding annotation file in GTF/GFF
 ## Uncompress files and get rid of alternative chromosome and mitochondria chromosome information
 `gunzip *.gz`
 
-## Alignment and feature count
-`bash ./Script.sh `
+## Generation of genome idex, alignment, feature count 
+`bash ./Script.sh <directory of idex> <diretory of reference genome> <diroctory of gtf file> <directory of fastq file> <name of fastq file>`
 ## DEG analysis by EdgeR 
-`bash ./Calculate.sh ` 
+`bash ./Calculate.sh <list of sample1 names> <list of sample2 names>` 
