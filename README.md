@@ -1,5 +1,5 @@
 # EgedR_DEG_analysis
-To calculate differential expressed genes between two groups
+To calculate differential expressed genes between two groups by using R package EdgeR
 
 # Requirements
 #### STAR 2.7.10a
