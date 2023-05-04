@@ -10,8 +10,6 @@
 `wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_39/gencode.v39.annotation.gtf.gz`
 
 `wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_39/GRCh38.primary_assembly.genome.fa.gz`
-## Uncompress files and get rid of alternative chromosome and mitochondria chromosome information
-`gunzip *.gz`
 
 ## Generation of genome idex, alignment, feature count 
 `bash ./Script.sh <directory of idex> <diretory of reference genome> <diroctory of gtf file> <directory of fastq file> <name of fastq file>`
