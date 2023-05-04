@@ -17,12 +17,14 @@ in this case we want to conduct DEG analysis comparing sample_num1 to sample_num
 do
     prefetch${line}
     fasterq-dump ${line}
+    echo ${line}.fast >>sample1
 done < sample_num1`
 
 `while read line
 do
     prefetch${line}
     fasterq-dump ${line}
+    echo ${line}.fast >>sample2
 done < sample_num2`
 
 ## Generation of genome idex, alignment, feature count 
@@ -30,4 +32,4 @@ done < sample_num2`
 ## DEG analysis by EdgeR 
 This command line would output the table with 3 columns: isoform names; Fold Change (absolute value bigger than 1.5); FDR (smaller than 0.05)
 
-`bash ./Calculate.sh <sample_num1> <sample_num2>` 
+`bash ./Calculate.sh <sample1> <sample2>` 
