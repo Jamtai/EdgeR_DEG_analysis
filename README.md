@@ -13,18 +13,18 @@ To calculate differential expressed genes between two groups
 ## Download the SRR data using command from the sra toolkit
 in this case we want to conduct DEG analysis comparing sample_num1 to sample_num2
 
-`while read line
+`while read line; 
 do
     prefetch${line}
     fasterq-dump ${line}
-    echo ${line}.fast >>sample1
+    echo ${line}.fast >>sample1;
 done < sample_num1`
 
-`while read line
+`while read line; 
 do
     prefetch${line}
     fasterq-dump ${line}
-    echo ${line}.fast >>sample2
+    echo ${line}.fast >>sample2; 
 done < sample_num2`
 
 ## Generation of genome idex, alignment, feature count 
