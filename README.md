@@ -14,6 +14,6 @@
 ## Generation of genome idex, alignment, feature count 
 `bash ./Script.sh <directory of idex> <diretory of reference genome> <diroctory of gtf file> <directory of fastq file> <name of fastq file>`
 ## DEG analysis by EdgeR 
-This command line would output the isoforms which FC absolute value bigger than 1.5 and FDR value smaller than 0.05
+This command line would output the table with 3 columns: isoform names; Fold Change (absolute value bigger than 1.5); FDR (smaller than 0.05)
 
 `bash ./Calculate.sh <list of sample1 names> <list of sample2 names>` 
